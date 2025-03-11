@@ -10,7 +10,7 @@ function useUsers () {
   //cria um usuario base
   const createUser = async (formData) => {
     try {
-      const response = await fetch("http://localhost:3333/users", {
+      const response = await fetch("http://localhost:8080/account/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,7 +75,7 @@ function useUsers () {
   //loga o usuario referido
   const loginUser = async (formData) => {
     try {
-      const response = await fetch("http://localhost:3333/users", {
+      const response = await fetch(`http://localhost:8080/get-r-user?email=${formData.Email}`, {
         method: "GET"
       });
       if (!response.ok) throw new Error(response.error || `Erro na requisição ${response.status}`)

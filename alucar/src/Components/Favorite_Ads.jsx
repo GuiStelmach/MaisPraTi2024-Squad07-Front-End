@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import CarCard_Favorite from "./CarCard_Favorite";
 import useCars from "../Hooks/UseCars";
@@ -5,7 +6,7 @@ import useCars from "../Hooks/UseCars";
 function Favortie_Ads() {
   //pega todos os anuncios disponiveis
   // const { getAllAds } = useCars()
-  // const [anuncios, setAnuncios] = useState([])
+  //const [anuncios, setAnuncios] = useState([])
   // useEffect(() => {
   //   setAnuncios(getAllAds())
   // }, [])

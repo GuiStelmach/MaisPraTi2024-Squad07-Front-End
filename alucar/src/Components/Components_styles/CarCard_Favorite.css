@@ -1,23 +1,24 @@
 .card-container {
-  width: 396px;
-  height: 541px;
+  width: 13rem;
+  height: 18rem;
   background-color: var(--quaternary-color);
-  border-radius: 8px;
+  border-radius: 0.25rem;
 }
 
 .content {
-  padding: 36px 27px;
+  padding: 1.2rem 0.9rem;
   position: relative;
 }
 
 .image-content {
-  width: 100%; 
-  border-radius: 8px;
+  width: 11rem;
+  height: 7rem; 
+  border-radius: 0.25rem;
 }
 
 .user-content {
   position: absolute;
-  right: 46px; 
+  right: 1.5rem; 
   top: 48%; 
   transform: translateY(-50%); 
   border-radius: 50%; 
@@ -27,18 +28,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 22px;
+  gap: 0.7rem;
 }
 
 .button-action:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
   background-color: #f2f2f2;
   color: var(--secondary-color);
-  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   border: none;
@@ -48,17 +48,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 14px;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
   font-weight: 500;
   cursor: pointer;
   border: none;
 }
 
 button {
-  height: 47px;
+  height: 1.5rem;
 }
 
 button:hover {
@@ -66,23 +65,23 @@ button:hover {
 }
 
 .info-content {
-  margin-block: 20px 30px;
+  margin-block: 0.7rem 1rem;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 0.5rem;
   font-weight: 700;
 }
 
 .car-items {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 0.33rem;
 }
 
 .car-item {
   display: flex;
-  gap: 10px;
+  gap: 0.33rem;
   color: #828282;
 }
 

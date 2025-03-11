@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 import { Component, useContext } from 'react'
 import './Components_styles/CarCard_Favorite.css'
 import { userContext } from '../Context/userContext';

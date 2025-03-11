@@ -58,7 +58,7 @@ body {
 .relative_container {position: relative;}
 
 
-@media (min-width: 0px) and (max-width: 219px) { html{--rem-responsive-font-size: 8px}; }
+ @media (min-width: 0px) and (max-width: 219px) { html{--rem-responsive-font-size: 8px}; }
  @media (min-width: 220px) and (max-width: 264px) { html{--rem-responsive-font-size: 10px}; }
  @media (min-width: 265px) and (max-width: 299px) { html{--rem-responsive-font-size: 12px}; }
  @media (min-width: 300px) and (max-width: 369px) { html{--rem-responsive-font-size: 14px}; }
@@ -79,4 +79,4 @@ body {
  @media (min-width: 2501px) and (max-width: 2700px) { html{--rem-responsive-font-size: 42px}; }
  @media (min-width: 2701px) and (max-width: 2900px) { html{--rem-responsive-font-size: 44px}; }
  @media (min-width: 2901px) and (max-width: 3100px) { html{--rem-responsive-font-size: 46px}; }
- @media (min-width: 3101px) and (max-width: 6200px) { html{--rem-responsive-font-size: 48px}; }
+ @media (min-width: 3101px) and (max-width: 3300px) { html{--rem-responsive-font-size: 48px}; }

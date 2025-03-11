@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import '../Components/Components_styles/LastCars.css';
 //import tracker from "../../assets/chevrolet-tracker-rs-2024.png"
 //import fiat from "../../assets/Novo-Fiat-tipo (3).png"
@@ -22,6 +23,7 @@ const LastCars = () => {
                 <div className='cars-cards'>
                     {/* componente que contem os cards */}
                     <Favortie_Ads />
+
                     {/*
                     <div className='card'>
                         <img src={tracker} alt="Tracker" />
@@ -105,6 +107,7 @@ const LastCars = () => {
                         </div>
                     </div>
                     */}
+                    
                 </div>
                 <div className='more-cars-btn'>
                     <p className='more-cars-p'>Ver Todos os Anúncios</p>

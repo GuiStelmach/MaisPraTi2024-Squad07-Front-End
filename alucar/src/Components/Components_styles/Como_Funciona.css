@@ -69,11 +69,11 @@
   }
 
   .icon-wrapper.black .circle {
-    border-color: var(--secondary-color);
+    border-color: black;
   }
 
   .icon-wrapper.orange .circle {
-    border-color: var(--primary-color);
+    border-color: orange;
   }
 
   .icon-wrapper img {
